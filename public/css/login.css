@@ -1,0 +1,64 @@
+body {
+    background-color: #a9f09f;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    max-width: 400px;
+    margin: auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+    width: 100%;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Animasi gambar */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.animated-img {
+    animation: spin 10s linear infinite;
+}
+
+
+
+/* bg */
+.background-img {
+    position: fixed;
+    top: 0;
+    left: 0;    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.5; /* Optional: adjust the opacity */
+}
+
+

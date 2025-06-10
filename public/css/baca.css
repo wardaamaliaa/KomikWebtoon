@@ -1,0 +1,45 @@
+/* Custom CSS untuk menambahkan beberapa gaya */
+.background-img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Agar gambar background tetap berada di belakang konten */
+}
+
+.card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Menambahkan lapisan transparan di atas gambar */
+    color: white;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.card-img-overlay h5,
+.card-img-overlay p {
+    margin-bottom: 0.5rem; /* Mengatur jarak antara elemen dalam card-overlay */
+}
+.card-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    text-align: justify;
+}
+
+.chapter-table {
+    margin-top: 20px; /* Menambahkan jarak antara card dan tabel */
+}
+
+.judul_komik {
+    color: #fdfdfd; /* Mengubah warna judul card */
+}
+
+.table th,
+.table td {
+    border-top: black; /* Menghapus garis border pada tabel */
+}
+
+
